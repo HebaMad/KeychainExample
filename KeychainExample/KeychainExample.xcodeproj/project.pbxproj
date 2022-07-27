@@ -13,8 +13,8 @@
 		279B30052891245600EE2626 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 279B30032891245600EE2626 /* Main.storyboard */; };
 		279B30072891245700EE2626 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 279B30062891245700EE2626 /* Assets.xcassets */; };
 		279B300A2891245700EE2626 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 279B30082891245700EE2626 /* LaunchScreen.storyboard */; };
-		279B30122891249700EE2626 /* KeychainWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279B30112891249700EE2626 /* KeychainWrapper.swift */; };
-		279B30142891284200EE2626 /* KeychainOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279B30132891284100EE2626 /* KeychainOperations.swift */; };
+		279B301628912D6F00EE2626 /* KeychainWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279B301528912D6F00EE2626 /* KeychainWrapper.swift */; };
+		279B301828912DBA00EE2626 /* KeychainOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279B301728912DBA00EE2626 /* KeychainOperations.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,8 +26,8 @@
 		279B30062891245700EE2626 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		279B30092891245700EE2626 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		279B300B2891245700EE2626 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		279B30112891249700EE2626 /* KeychainWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KeychainWrapper.swift; path = "../../../../Documents/Rakwa-ios/Rakwa/Helper/KeychainWrapper.swift"; sourceTree = "<group>"; };
-		279B30132891284100EE2626 /* KeychainOperations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KeychainOperations.swift; path = "../../../../Documents/Rakwa-ios/Rakwa/Helper/KeychainOperations.swift"; sourceTree = "<group>"; };
+		279B301528912D6F00EE2626 /* KeychainWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainWrapper.swift; sourceTree = "<group>"; };
+		279B301728912DBA00EE2626 /* KeychainOperations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainOperations.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +60,6 @@
 		279B2FFC2891245600EE2626 /* KeychainExample */ = {
 			isa = PBXGroup;
 			children = (
-				279B30132891284100EE2626 /* KeychainOperations.swift */,
-				279B30112891249700EE2626 /* KeychainWrapper.swift */,
 				279B2FFD2891245600EE2626 /* AppDelegate.swift */,
 				279B2FFF2891245600EE2626 /* SceneDelegate.swift */,
 				279B30012891245600EE2626 /* ViewController.swift */,
@@ -69,6 +67,8 @@
 				279B30062891245700EE2626 /* Assets.xcassets */,
 				279B30082891245700EE2626 /* LaunchScreen.storyboard */,
 				279B300B2891245700EE2626 /* Info.plist */,
+				279B301528912D6F00EE2626 /* KeychainWrapper.swift */,
+				279B301728912DBA00EE2626 /* KeychainOperations.swift */,
 			);
 			path = KeychainExample;
 			sourceTree = "<group>";
@@ -145,10 +145,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				279B30022891245600EE2626 /* ViewController.swift in Sources */,
-				279B30122891249700EE2626 /* KeychainWrapper.swift in Sources */,
 				279B2FFE2891245600EE2626 /* AppDelegate.swift in Sources */,
 				279B30002891245600EE2626 /* SceneDelegate.swift in Sources */,
-				279B30142891284200EE2626 /* KeychainOperations.swift in Sources */,
+				279B301628912D6F00EE2626 /* KeychainWrapper.swift in Sources */,
+				279B301828912DBA00EE2626 /* KeychainOperations.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
